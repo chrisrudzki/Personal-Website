@@ -8,7 +8,7 @@ export default function AboutContent({ onDisplay }) {
                 key="pers"
                 src={`/Photos/PersonalPhoto.png`}
                 alt={`personal photo`}
-                style={{ aspectRatio: "4 / 3", width: "300px" }}
+                style={{ width: "300px" }}
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}
               />
     <div class="text-cont">
