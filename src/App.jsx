@@ -12,6 +12,7 @@ import ComponentToRender from './components/ComponentToRender.jsx'
 import { useState, useEffect } from "react";
 
 export default function App() {
+
   const [curTab, setCurTab] = useState("Projects");
 
   const [curFullDisplay, setCurFullDisplay] = useState(null);
@@ -73,6 +74,15 @@ export default function App() {
 
   return (
     <>
+
+
+    <head>
+      <meta charset="UTF-8" />
+      <title>Chris Rudzki</title>
+    </head>
+
+
+
     <div className="App">
       {curFullArtDisplay ? displayArtImage : undefined}
       {curFullProjDisplay ? displayProjImage : undefined}
