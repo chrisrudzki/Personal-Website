@@ -1,5 +1,5 @@
 export default function ProjectsContent({ onDisplay }) {
-  const disc_text = <p> Developed in Gadot using GD Script Chicken Fun is a action shooter inspired by horde zombie games. In it you play as a lonesome boy who has been suddenly attacked by ducks. How will he fare with what he has on him? </p>;
+  const disc_text = <p> Developed in Gadot using GD Script, Chicken Fun is an action shooter inspired by zombie horde zombie games. You play as a lonesome boy who has been suddenly attacked by ducks. How long can you last? </p>;
   
   const video1 = document.getElementById("slide-1")
   
