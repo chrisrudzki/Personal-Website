@@ -1,9 +1,9 @@
 export default function ProjectsContent({ onDisplay }) {
   const disc_text = <p> Developed in Gadot using GD Script, Chicken Fun is an action shooter inspired by zombie horde zombie games. You play as a lonesome boy who has been suddenly attacked by ducks. How long can you last? </p>;
   
-  const disc_text_2 = <p> Enemy design
+  const disc_text_2 = <p> I dedicated most of my time in this project to explore enemy behavior. 
 
-Yellow ducks are designed with popular bird like flocking algorithm by Creig Ryenolds. Their position is determined by the centre of mass collision avoidance, and velocity of nearby birds along with direction towards the player. This enemy tracking allows for dynamic player navigation between clumps of enemies when many are closely chasing. Spawn locations are limited to 2 and rotate between 9 around the island to promote clumping. 
+The yellow ducks are designed with Creig Ryenolds popular boid flocking algorithm. Their position is determined by the centre of mass collision avoidance, and velocity of nearby birds along with direction towards the player. This enemy tracking allows for dynamic player navigation between clumps of enemies when many are closely chasing. Spawn locations are limited to 2 and rotate between 9 around the island to promote clumping. 
 
 A map with separate areas between barriers would increase dynamic navigation at cost to the game's simplicity.
 
@@ -41,10 +41,10 @@ A map with separate areas between barriers would increase dynamic navigation at 
             
             <ul>
                 
-                <li>3 unique wepons</li>
-                <li>3 unique enemies</li>
-                <li>currenty system with weapeon upgrade tree</li>
-                <li>intellegent enemy flocking</li>
+                <li>Three unique wepons</li>
+                <li>Three unique enemies</li>
+                <li>Currency system with weapon upgrade tree</li>
+                <li>Intellegent enemy flocking</li>
 
                 {disc_text_2}
 
@@ -66,6 +66,12 @@ A map with separate areas between barriers would increase dynamic navigation at 
             </div>
           ))}
         </div>
+
+
+        <h2>Note on Ememy Behavior</h2>
+
+        {disc_text_2}
+
 
         </div>
     </div> 
