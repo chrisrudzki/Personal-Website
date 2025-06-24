@@ -3,7 +3,7 @@ export default function ProjectsContent({ onDisplay }) {
   
   const disc_text_2 = <p>   I dedicated most of my time in this project to explore enemy behavior. 
 
-The yellow ducks are designed with Creig Ryenolds popular boid flocking algorithm. Their position is determined by the centre of mass, collision avoidance, and velocity of nearby birds along along their path towards the player. This enemy tracking allows for dynamic player navigation between clumps of enemies when many are closely chasing. Spawn locations are limited to 2 and rotate between 9 around the island to promote clumping. 
+The yellow ducks are designed with Creig Ryenolds popular boid flocking algorithm. Their position is determined by the centre of mass, collision avoidance, and velocity of nearby birds along along their path towards the player. This enemy tracking allows for dynamic player navigation between clumps of enemies when many are closely chasing. Active spawn locations are limited to 2 of 9 at a time to promote clumping.  
 
 A alternateive map with separate areas between barriers or walls would further enphsize this at cost to the game's simplicity. 
 
@@ -37,7 +37,7 @@ A alternateive map with separate areas between barriers or walls would further e
             </video> 
             </div>
           
-            <h2>features</h2>
+            <h2>Features</h2>
             
             <ul>
                 
