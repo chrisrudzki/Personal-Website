@@ -16,12 +16,10 @@ A alternateive map with separate areas between barriers or walls would further e
   "ChickenFunScreenshot2.png",
   "ChickenFunScreenshot3.png",
   "ChickenFunScreenshot4.png"
-];  
+];
 
   return (
     <>
-
-
          <div class="content-container">
             <div class="proj-col">
             <h2>Chicken Fun</h2>
@@ -40,13 +38,10 @@ A alternateive map with separate areas between barriers or walls would further e
             <h2>Features</h2>
             
             <ul>
-                
                 <li>Three unique wepons</li>
                 <li>Three unique enemies</li>
                 <li>Currency system with weapon upgrade tree</li>
                 <li>Intellegent enemy flocking</li>
-
-
             </ul>
           
         <div class="gallery-row">

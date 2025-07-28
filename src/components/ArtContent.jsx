@@ -25,7 +25,6 @@ export default function ArtContent({ onDisplay }) {
             </div>
           ))}
         </div>
-
         <div class="gallery-col">
           {artPhotos.slice(2, 4).map((imgName, i) => (
             <div class="gallery-image">
