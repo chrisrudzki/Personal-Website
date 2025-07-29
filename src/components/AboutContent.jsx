@@ -20,12 +20,12 @@ export default function AboutContent({ onDisplay }) {
 
   return (
     <>
-    <div class="content-container">
-        
+    <div className="content-container">
+       
               <img
                 className="zoom-image"
                 key="pers"
-                src={`/Photos/PersonalPhoto.png`}
+                src="/Photos/PersonalPhoto.png"
                 alt={`personal photo`}
                 style={{ width: "300px" }}
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}
