@@ -6,17 +6,20 @@ export default function AboutContent({ onDisplay }) {
   const [subject, setSubject] = useState('');
   const [body, setBody] = useState('');
 
+  const [form, setForm] = useState({ email: "", subject: "", message: "" });
+
+  const handleChange = () => setForm({ email: email, subject: subject, body: body});
+
   const handleSubmit = async () => {
-    setSubmittedData({ email, password });
-    try{
-      await signInWithEmailAndPassword(auth, email, password);
-      console.log('Submitted:', email, password);
-     
-    } catch (error) {
-      setErrorMessage("Wrong e-mail or password, try again");
-      //console.("Failed:", error.code, error.message);
-    }
+   const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { 'Content-Type': 'application/json'},
+      body: JSON.stringify(form),
+   });
+   if (res.ok) alert("message sent");
+   else alert("failed to send");
   };
+
 
   return (
     <>
@@ -31,10 +34,12 @@ export default function AboutContent({ onDisplay }) {
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}
               />
     <div class="text-cont">
-      <p>Hello, <br /> <br /> I'm Christopher Rudzki, a software developer currently based in Victoria, Canada. I am a Computer Science student at the University of Victoria. <br /><br />   With expirence in fullstack development, algorithm design, game development, graphics programming, design and art I am open to new horizons and opportunities. <br /> <br /> Please do not hesitate to reach out. <br /> <br /> <br /> <br />  chrisrudzki7@gmail.com</p>
+      <p>Hello, <br /> <br /> I'm Christopher Rudzki, a software developer currently based in Canada studying Computer Science at the University of Victoria. <br /><br />   With expirence in fullstack development, algorithm design, game development, graphics programming, design and art I am open to new horizons and opportunities. <br /> <br /> Feel free to reach out. <br /> <br /> <br /> <br />  chrisrudzki7@gmail.com</p>
       </div>
    </div>
-
+    
+    {/*
+    <form onSubmit={handleSubmit}>
     <div>Email</div>
     <input
         type="email"
@@ -58,14 +63,11 @@ export default function AboutContent({ onDisplay }) {
         value={body}
         onChange={(e) => setBody(e.target.value)}
       />
+      </form>
 
-      <button onClick={handleSubmit}>Log in</button>
+      <button onClick={handleSubmit}>Submit</button>
 
-
-
-
-
-
+    */}
 
     </>
   );
