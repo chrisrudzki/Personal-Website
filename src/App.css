@@ -131,6 +131,12 @@ h2 {
   flex: 1;
 }
 
+.content-container-pfp {
+  padding: 50px 10px;
+  display: flex;
+  flex: 1;
+}
+
 .gallery-col {
   display: flex;
   flex-direction: column;

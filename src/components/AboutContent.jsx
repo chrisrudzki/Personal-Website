@@ -23,9 +23,9 @@ export default function AboutContent({ onDisplay }) {
 
   return (
     <>
-    <div className="content-container">
+    <div className="content-container-pfp">
        
-              <img style={{ padding: 10 }}
+              <img
                 //className="zoom-image"
                 key="pers"
                 src="/Photos/PersonalPhoto.png"
