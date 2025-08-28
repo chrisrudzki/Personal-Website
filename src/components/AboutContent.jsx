@@ -25,8 +25,8 @@ export default function AboutContent({ onDisplay }) {
     <>
     <div className="content-container">
        
-              <img
-                className="zoom-image"
+              <img style={{ padding: 10 }}
+                //className="zoom-image"
                 key="pers"
                 src="/Photos/PersonalPhoto.png"
                 alt={`personal photo`}
