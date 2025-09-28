@@ -26,6 +26,7 @@ h1 {
   font-size: 1.5rem;
 }
 
+
 .overlay {
   display: flex;
   justify-content: center;
@@ -106,6 +107,11 @@ button:hover {
 button.active {
   color: #601aa5;
   text-decoration: underline;
+}
+
+side_button {
+  background-color: #601aa5;
+
 }
 
 h2 {
