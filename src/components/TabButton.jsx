@@ -1,9 +1,9 @@
+import '../App.css'
+
 export default function TabButton({ children, isSelected, ...props }) {
   return (
-    <li>
-      <button className={isSelected ? "active " : undefined} {...props}>
+      <button style={{textAlign: "center"}}className={isSelected ? "active " : undefined} {...props}>
         {children}
       </button>
-    </li>
   );
 }

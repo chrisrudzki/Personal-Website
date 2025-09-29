@@ -5,6 +5,7 @@
 .App {
   font-family: sans-serif;
   display: flex;
+  flex-direction: column;
 }
 
 li {
@@ -13,8 +14,19 @@ li {
 
 .leftSide {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
   margin-top: 0.4rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #D3D3D3;
+}
+
+.tabs {
+ display: flex;
+ flex-direction: line;
+ width: 100%;
+
 }
 
 .Content {
@@ -25,7 +37,6 @@ li {
 h1 {
   font-size: 1.5rem;
 }
-
 
 .overlay {
   display: flex;
@@ -52,7 +63,7 @@ h1 {
 
 .repo-button{
   display: flex;
-  flex-direction: left;
+  /* flex-direction: left; */
   padding: 0px;
   border-radius: 0px;
   color: #74499f;
@@ -92,6 +103,7 @@ button {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 6px;
+  /* text-align: right; */
   background-color: transparent;
   color: #a18aba;
   font-family: "Roboto Condensed", sans-serif;
@@ -109,9 +121,15 @@ button.active {
   text-decoration: underline;
 }
 
-side_button {
-  background-color: #601aa5;
-
+.top-button {
+  /* background-color: #601aa5; */
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: bold; */
 }
 
 h2 {
@@ -140,7 +158,16 @@ h2 {
 .content-container-pfp {
   padding: 15px 50px;
   display: flex;
+  /* flex: 1; */
+}
+
+.content-container-about {
+  margin-top: 100px;
+  padding: 15px 10px;
+  display: flex;
   flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-col {

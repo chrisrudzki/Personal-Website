@@ -1,5 +1,6 @@
 import TabButton from "./TabButton.jsx";
 import { useState } from "react";
+import '../App.css'
 
 export default function Tabs({ onSelectTabs, curTab }) {
   if (curTab) {
@@ -9,20 +10,23 @@ export default function Tabs({ onSelectTabs, curTab }) {
 
   return (
     <>
-      <div id="tabs">
-        <TabButton
+      <div className="tabs">
+        <TabButton className="top-button"
           isSelected={curTab === "Projects"}
           onClick={() => onSelectTabs("Projects")}
         >
           Projects
         </TabButton>
-        <TabButton
+
+        <TabButton className="top-button"
           isSelected={curTab === "Art"}
           onClick={() => onSelectTabs("Art")}
         >
-          Art
+          Drawings
         </TabButton>
-        <TabButton
+
+        {/* <TabButton className="side-button" */}
+        <TabButton className="top-button"
           isSelected={curTab === "About"}
           onClick={() => onSelectTabs("About")}
         >

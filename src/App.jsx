@@ -81,13 +81,14 @@ export default function App() {
     <div className="App">
       {curFullArtDisplay ? displayArtImage : undefined}
       {curFullProjDisplay ? displayProjImage : undefined}
-    
+      
       <div className="leftSide">
         <h1>
           Christopher <br /> Rudzki
         </h1>
         <Tabs onSelectTabs={handleSelectTabs} curTab={curTab}></Tabs>
       </div>
+
       {ComponentToRender ? (
        <ComponentToRender onDisplay={setCurFullDisplay}></ComponentToRender>
       ) : (
