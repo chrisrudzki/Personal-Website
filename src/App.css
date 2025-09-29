@@ -13,9 +13,7 @@ html, body {
   overflow-x: hidden;
 }
 
-li {
-  list-style: none;
-}
+
 
 .leftSide {
   display: flex;
@@ -208,7 +206,7 @@ h2 {
 .proj-col {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   padding: 0px 7px;
 }
 
