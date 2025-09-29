@@ -9,11 +9,9 @@
 }
 
 html, body {
-  overflow-x: hidden;
   all: unset;
+  overflow-x: hidden;
 }
-
-
 
 li {
   list-style: none;
@@ -281,7 +279,7 @@ h2 {
   }
 
   .footer {
-    background-color: #a18aba;
+    background-color: #E0E0E0;
     width: 100vw;
     margin-top: 0;
     display: flex;

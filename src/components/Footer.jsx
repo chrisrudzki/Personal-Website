@@ -3,6 +3,10 @@
 export default function Footer(){
 
 
+    // const hitLinked = (
+        
+    // );
+
     return(
         <>
         <div class="footer">
@@ -10,7 +14,7 @@ export default function Footer(){
         <div className="footer-inner">
 
         <img 
-                //className="zoom-image"
+                onClick={() => window.open('https://www.linkedin.com/in/christopher-rudzki/', '_blank')}
                 key="linked"
                 src="/Photos/linkedin.png"
                 alt={`linkedin`}
@@ -19,7 +23,7 @@ export default function Footer(){
               />
 
          <img 
-                //className="zoom-image"
+                onClick={() => window.open('https://github.com/', '_blank')}
                 key="git"
                 src="/Photos/github.png"
                 alt={`github`}
