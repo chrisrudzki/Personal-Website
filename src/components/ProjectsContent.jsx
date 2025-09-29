@@ -3,7 +3,7 @@ export default function ProjectsContent({ onDisplay }) {
               fontSize: "15px",
               marginTop: "2px",
               padding: "0px"
-            }}> <p> Developed in Gadot using GD Script, Chicken Fun is a 2D action shooter inspired by zombie horde games. <br></br><br></br> The yellow ducks' pathfinding is implamented with Creig Ryenolds' boid flocking algorithm. Their position is determined by the centre of mass, collision avoidance, velocity of nearby birds. The enemy tracking allows for dynamic player navigation between clumps of enemies. Active spawn locations are limited and change periodically to promote clumping.  
+            }}> <p> Developed in Gadot using GD Script, Island Defender is a 2D action shooter inspired by zombie horde games. <br></br><br></br> The yellow ducks' pathfinding is implamented with Creig Ryenolds' boid flocking algorithm. Their position is determined by the centre of mass, collision avoidance, velocity of nearby birds. The enemy tracking allows for dynamic player navigation between clumps of enemies. Active spawn locations are limited and change periodically to promote clumping.  
  </p></div>;
   
   const disc_text_2 = <div style={{
@@ -28,7 +28,7 @@ export default function ProjectsContent({ onDisplay }) {
     <>
          <div class="content-container">
             <div class="proj-col">
-            <h2>Chicken Fun</h2>
+            <h2>Island Defender</h2>
 
             <button 
             style={{fontWeight: "bold",
