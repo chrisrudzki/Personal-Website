@@ -16,7 +16,7 @@ export default function Footer(){
         <img 
                 onClick={() => window.open('https://www.linkedin.com/in/christopher-rudzki/', '_blank')}
                 key="linked"
-                src="/Photos/linkedin.png"
+                src="/Photos/linkedin.svg"
                 alt={`linkedin`}
                 style={{ width: "40px" }}
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}
@@ -25,7 +25,7 @@ export default function Footer(){
          <img 
                 onClick={() => window.open('https://github.com/', '_blank')}
                 key="git"
-                src="/Photos/github.png"
+                src="/Photos/github.svg"
                 alt={`github`}
                 style={{ width: "40px" }}
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}

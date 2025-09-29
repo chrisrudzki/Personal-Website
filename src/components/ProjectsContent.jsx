@@ -8,7 +8,6 @@ The yellow ducks are designed with Creig Ryenolds' popular boid flocking algorit
 A alternateive map with separate areas between barriers or walls would further enphsize this at cost to the game's simplicity. 
 
 </p>
-
   const video1 = document.getElementById("slide-1")
   
   const chickenFunPhotos = [
