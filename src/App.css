@@ -272,3 +272,46 @@ h2 {
     opacity: 0.75;
     transition: opacity ease 250ms;
   }
+
+  .footer {
+    /* background-color: #a18aba; */
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .footer-inner {
+    width: 10px;
+    display: flex;
+  }
+
+  /* .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+  } */
+
+
+
+
+
+
+  .content-container-pfp {
+  padding: 15px 50px;
+  display: flex;
+  /* flex: 1; */
+}
+
+.content-container-about {
+  margin-top: 100px;
+  padding: 15px 10px;
+  margin-bottom: 450px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}

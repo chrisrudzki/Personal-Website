@@ -7,26 +7,30 @@ export default function Footer(){
         <>
         <div className="footer">
 
-        
-        <img
+        <div className="footer-inner">
+
+
+        <img 
                 //className="zoom-image"
                 key="pers"
                 src="/Photos/linkedin.png"
                 alt={`linkedin`}
-                style={{ width: "25px" }}
+                style={{ width: "40px" }}
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}
               />
 
-         <img
+         <img 
                 //className="zoom-image"
                 key="pers"
                 src="/Photos/github.png"
                 alt={`github`}
-                style={{ width: "25px" }}
+                style={{ width: "40px" }}
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}
               />
-        
 
+
+        </div>
+        
         </div>
         </>
 
