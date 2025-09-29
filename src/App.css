@@ -16,10 +16,10 @@ li {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top: 0.4rem;
+  margin-top: 1rem;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #D3D3D3;
+  /* background-color: #D3D3D3; */
 }
 
 .tabs {
@@ -35,7 +35,15 @@ li {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: .6px;
+  margin-bottom: .6px;
 }
 
 .overlay {
@@ -107,7 +115,6 @@ button {
   background-color: transparent;
   color: #a18aba;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -124,7 +131,8 @@ button.active {
 .top-button {
   /* background-color: #601aa5; */
   display: flex;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
   width: 100%;
   text-align: center;
   justify-content: center;
