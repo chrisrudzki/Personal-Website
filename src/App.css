@@ -172,6 +172,7 @@ h2 {
 .content-container-about {
   margin-top: 100px;
   padding: 15px 10px;
+  margin-bottom: 450px;
   display: flex;
   flex: 1;
   justify-content: center;

@@ -8,6 +8,7 @@ import AboutContent from './components/AboutContent.jsx'
 import ProjectsContent from './components/ProjectsContent.jsx'
 import Tabs from './components/Tabs.jsx'
 import ComponentToRender from './components/ComponentToRender.jsx'
+import Footer from './components/Footer.jsx'
 
 import { useState, useEffect } from "react";
 
@@ -81,7 +82,7 @@ export default function App() {
     <div className="App">
       {curFullArtDisplay ? displayArtImage : undefined}
       {curFullProjDisplay ? displayProjImage : undefined}
-      
+
       <div className="leftSide">
         <h1>
           Christopher <br /> Rudzki
@@ -94,6 +95,8 @@ export default function App() {
       ) : (
         <p>No content</p>
       )}
+
+      <Footer />
     </div>
 
     </>
