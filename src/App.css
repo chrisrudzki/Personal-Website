@@ -293,14 +293,14 @@ h2 {
     border-top-right-radius: 10px;
     padding-bottom: 40px;
     padding-top: 40px;
-    margin-right: 10px;
-    margin-left: 10px;
 
   }
 
   .footer-inner {
     width: 10px;
     display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
 /* 
