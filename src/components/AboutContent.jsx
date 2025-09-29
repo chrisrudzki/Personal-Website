@@ -30,7 +30,7 @@ export default function AboutContent({ onDisplay }) {
               <img
                 //className="zoom-image"
                 key="pers"
-                src="/Photos/PersonalPhoto.png"
+                src="/Photos/PersonalPhoto1.png"
                 alt={`personal photo`}
                 style={{ width: "200px" }}
                 //style={{ aspect-ratio: "4/3" }, { width: 300px; }}
