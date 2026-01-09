@@ -10,7 +10,7 @@ export default function ProjectsContent({ onDisplay }) {
               fontSize: "15px",
               marginTop: "2px",
               padding: "0px"
-            }}> <p> Firmware to control and store the temperature of various components within a Formula 1 electric vehicle for the UVic Formula 1 Racing Team. <br></br><br></br>  ISOspi was implemented to send temperatures from various boards over a large distance to a central component (TMS). Temperatures were dynamically stored and updated within the TMS. CAN bus communication was implemented to transmit temperatures to various other subsystems of the vehicle. FreeRTOS real time operating system is used to ensure deterministic reliable communication.
+            }}> <p> Firmware written in C to control and store the temperature of various components within a Formula 1 electric vehicle for the UVic Formula 1 Racing Team. <br></br><br></br>  ISOspi was implemented to send temperatures from various boards over a large distance to a central component (TMS). Temperatures were dynamically stored and updated within the TMS. CAN bus communication was implemented to transmit temperatures to various other subsystems of the vehicle. FreeRTOS real time operating system is used to ensure deterministic reliable communication.
  </p></div>;
 
   const video1 = document.getElementById("slide-1")
@@ -72,14 +72,6 @@ export default function ProjectsContent({ onDisplay }) {
             </video> 
             </div>
           
-            <h2>Features</h2>
-            
-            <ul>
-                <li>3 weapons with upgrades</li>
-                <li>3 enemies</li>
-                <li>Currency system and shop</li>
-                <li>Intellegent enemy flocking</li>
-            </ul>
           
         <div class="gallery-row">
           {chickenFunPhotos.slice(0, 4).map((imgName, i) => (
