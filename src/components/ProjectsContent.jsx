@@ -88,7 +88,7 @@ export default function ProjectsContent({ onDisplay }) {
             {disc_text2}
 
             <div class="parent">
-            <img src="ProjPhotos/f1working.png" alt="working on f1 car" class="centerd-image" width="862" height="510"></img>
+            <img src="ProjPhotos/f1working.png" alt="working on f1 car" class="centerd-image" width="862"></img>
 
             </div>
 
