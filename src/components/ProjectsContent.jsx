@@ -10,7 +10,7 @@ export default function ProjectsContent({ onDisplay }) {
               fontSize: "15px",
               marginTop: "2px",
               padding: "0px"
-            }}> <p> Written using C, This is firmware to control and store the temperature of various components within a Formula 1 electric vehicle. <br></br><br></br>  ISOspi is implemented to send temperatures from various boards over a large distance to a central component (TMS). Temperatures are dynamically stored within the TMS. CAN bus communication is utilized to transmit temperatures to various other subsystems of the vehicle. FreeRTOS real time operating system is used to ensure deterministic reliable communication.
+            }}> <p> Firmware to control and store the temperature of various components within a Formula 1 electric vehicle for the UVic Formula 1 Racing Team. <br></br><br></br>  ISOspi was implemented to send temperatures from various boards over a large distance to a central component (TMS). Temperatures were dynamically stored and updated within the TMS. CAN bus communication was implemented to transmit temperatures to various other subsystems of the vehicle. FreeRTOS real time operating system is used to ensure deterministic reliable communication.
  </p></div>;
 
   const video1 = document.getElementById("slide-1")
@@ -74,14 +74,14 @@ export default function ProjectsContent({ onDisplay }) {
         </div>
 
 
-        <h2>Temperature Regulation Software for electric vehicle</h2>
+        <h2>Temperature Regulation Software for Electric Vehicle</h2>
 
             <button 
             style={{fontWeight: "bold",
               fontSize: "17px",
               margin: "2px"
 
-            }} class="repo-button" onClick={() => window.open('https://github.com/chrisrudzki/Chicken-Fun', '_blank')}>
+            }} class="repo-button" onClick={() => window.open('https://github.com/UVicFormulaMotorsport/EV26-TMS/tree/Chris-R-TMS', '_blank')}>
             GitHub repository
             </button>
 
