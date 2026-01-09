@@ -28,6 +28,25 @@ export default function ProjectsContent({ onDisplay }) {
             <div class="proj-col">
 
 
+            <h2>Temperature Regulation Software for Electric Vehicle</h2>
+
+            <button 
+            style={{fontWeight: "bold",
+              fontSize: "17px",
+              margin: "2px"
+
+            }} class="repo-button" onClick={() => window.open('https://github.com/UVicFormulaMotorsport/EV26-TMS/tree/Chris-R-TMS', '_blank')}>
+            GitHub repository
+            </button>
+
+            {disc_text2}
+
+            <div class="parent">
+            <img src="ProjPhotos/f1working.png" alt="working on f1 car" class="centerd-image" width="862"></img>
+
+            </div>
+
+
             <h2>Island Defender</h2>
 
             <button 
@@ -74,23 +93,7 @@ export default function ProjectsContent({ onDisplay }) {
         </div>
 
 
-        <h2>Temperature Regulation Software for Electric Vehicle</h2>
-
-            <button 
-            style={{fontWeight: "bold",
-              fontSize: "17px",
-              margin: "2px"
-
-            }} class="repo-button" onClick={() => window.open('https://github.com/UVicFormulaMotorsport/EV26-TMS/tree/Chris-R-TMS', '_blank')}>
-            GitHub repository
-            </button>
-
-            {disc_text2}
-
-            <div class="parent">
-            <img src="ProjPhotos/f1working.png" alt="working on f1 car" class="centerd-image" width="862"></img>
-
-            </div>
+       
 
 
         
