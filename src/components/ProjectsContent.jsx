@@ -46,6 +46,10 @@ export default function ProjectsContent({ onDisplay }) {
 
             </div>
 
+            <div height="10px">
+
+            </div>
+
 
             <h2>Island Defender</h2>
 
@@ -91,10 +95,6 @@ export default function ProjectsContent({ onDisplay }) {
             </div>
           ))}
         </div>
-
-
-       
-
 
         
         </div>
