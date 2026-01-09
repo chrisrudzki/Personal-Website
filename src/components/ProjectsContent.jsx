@@ -3,18 +3,16 @@ export default function ProjectsContent({ onDisplay }) {
               fontSize: "15px",
               marginTop: "2px",
               padding: "0px"
-            }}> <p> Developed in Gadot using GD Script, Island Defender is a 2D action shooter inspired by zombie horde games. <br></br><br></br> The yellow ducks' pathfinding is implamented with Creig Ryenolds' boid flocking algorithm. Their position is determined by the centre of mass, collision avoidance, velocity of nearby birds. The enemy tracking allows for dynamic player navigation between clumps of enemies. Active spawn locations are limited and change periodically to promote clumping.  
+            }}> <p> Developed in Gadot using GD Script, Island Defender is a 2D action shooter inspired by zombie horde games. <br></br><br></br> The yellow ducks' pathfinding is implamented with Creig Ryenolds' boid flocking algorithm. Their position is determined by the balance of centre of mass, collision avoidance, velocity of nearby birds. The enemy pathfinding allows for dynamic player navigation between clumps of enemies. Active spawn locations are limited and change periodically to further promote engadging gameplay.  
  </p></div>;
   
-  const disc_text_2 = <div style={{
+  const disc_text2 = <div style={{
               fontSize: "15px",
               marginTop: "2px",
               padding: "0px"
-            }}> <p>
+            }}> <p> Written using C, This is firmware to control and store the temperature of various components within a Formula 1 electric vehicle. <br></br><br></br>  ISOspi is implemented to send temperatures from various boards over a large distance to a central component (TMS). Temperatures are dynamically stored within the TMS. CAN bus communication is utilized to transmit temperatures to various other subsystems of the vehicle. FreeRTOS real time operating system is used to ensure deterministic reliable communication.
+ </p></div>;
 
- Pathfinding is implamented with Creig Ryenolds' boid flocking algorithm. Position is determined by the centre of mass, collision avoidance, velocity of nearby birds. The enemy tracking allows for dynamic player navigation between clumps of enemies. Active spawn locations are limited and change periodically to promote clumping.  
-
-</p> </div>
   const video1 = document.getElementById("slide-1")
   
   const chickenFunPhotos = [
@@ -28,6 +26,8 @@ export default function ProjectsContent({ onDisplay }) {
     <>
          <div class="content-container">
             <div class="proj-col">
+
+
             <h2>Island Defender</h2>
 
             <button 
@@ -73,11 +73,30 @@ export default function ProjectsContent({ onDisplay }) {
           ))}
         </div>
 
+
+        <h2>Cooling System Algorithm (UVic Formula Racing club)</h2>
+
+            <button 
+            style={{fontWeight: "bold",
+              fontSize: "17px",
+              margin: "2px"
+
+
+            }} class="repo-button" onClick={() => window.open('https://github.com/chrisrudzki/Chicken-Fun', '_blank')}>
+            GitHub repository
+            </button>
+
+            {disc_text2}
+
+            <div class="parent">
+            <img src="f1working.png" alt="working on f1 car"></img>
+
+            </div>
+
+
         
         </div>
     </div> 
-
-
 
     </>
   );

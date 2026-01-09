@@ -87,14 +87,14 @@ h2 {
 
 .parent{
   border-radius: 10px;
-  overflow: hidden; /* Very important */  
+  overflow: hidden;   
   display: flex;
   justify-content: center;
 }
 
 .parent img,
 .parent video{
-  border-radius: inherit; /* Inherits 10px from .parent */
+  border-radius: inherit; 
   
 }
 

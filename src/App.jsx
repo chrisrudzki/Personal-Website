@@ -57,7 +57,7 @@ export default function App() {
   );
 
   useEffect(() => {
-    console.log("change eff")
+    
   if (curFullDisplay !== null) {
     if (curFullDisplay.slice(0, 3) === "Art") {
       setCurFullArtDisplay(curFullDisplay);

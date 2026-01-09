@@ -40,11 +40,15 @@ export default function AboutContent({ onDisplay }) {
     <div className="content-container-pfp">
 
     <div class="text-cont">
-      <p>Hello, <br /> <br /> I'm Christopher Rudzki, a software developer studying Computer Science at the University of Victoria. <br /><br />   With expirence in fullstack development, algorithm design, game development, design and art I am open to new horizons and opportunities. <br /> <br /> Feel free to reach out. <br /> <br />  chrisrudzki7@gmail.com</p>
-    </div>
-   
+      <p>Hello, <br /> <br /> I'm Christopher Rudzki, a software developer studying Computer Science at the University of Victoria. <br /><br />   With expirence in embedded systems, fullstack development, algorithm design, game development and art I am open to new horizons and opportunities. <br /> <br /> Feel free to reach out. <br /> <br />  chrisrudzki7@gmail.com</p>
     </div>
 
+
+
+
+
+   
+    </div>
   </div>
 
 
