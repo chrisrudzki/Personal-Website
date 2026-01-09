@@ -74,13 +74,12 @@ export default function ProjectsContent({ onDisplay }) {
         </div>
 
 
-        <h2>Cooling System Algorithm (UVic Formula Racing club)</h2>
+        <h2>Temperature Regulation Software for electric vehicle</h2>
 
             <button 
             style={{fontWeight: "bold",
               fontSize: "17px",
               margin: "2px"
-
 
             }} class="repo-button" onClick={() => window.open('https://github.com/chrisrudzki/Chicken-Fun', '_blank')}>
             GitHub repository
@@ -89,7 +88,7 @@ export default function ProjectsContent({ onDisplay }) {
             {disc_text2}
 
             <div class="parent">
-            <img src="f1working.png" alt="working on f1 car"></img>
+            <img src="ProjPhotos/f1working.png" alt="working on f1 car"></img>
 
             </div>
 
