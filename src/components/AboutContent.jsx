@@ -43,11 +43,6 @@ export default function AboutContent({ onDisplay }) {
       <p>Hello, <br /> <br /> I'm Christopher Rudzki, a software developer studying Computer Science at the University of Victoria. <br /><br />   With expirence in embedded systems, full-stack development, algorithm design, game development and technical art, i'm open to new horizons and opportunities. <br />  <br /> In my spare time I enjoy drawing and painting. <br /> <br /> Feel free to reach out at chrisrudzki7@gmail.com. <br /> <br /> </p>
     </div>
 
-
-
-
-
-   
     </div>
   </div>
 

@@ -21,7 +21,7 @@ export default function Footer(){
         <div className="footer-inner">
 
          <img 
-                onClick={() => window.open('https://github.com/', '_blank')}
+                onClick={() => window.open('https://github.com/chrisrudzki', '_blank')}
                 key="git"
                 src="/Photos/github.svg"
                 alt={`github`}
